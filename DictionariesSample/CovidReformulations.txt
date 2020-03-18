@@ -1,2 +1,4 @@
 coronavirus;coronavirus disease 2019;coronavirus disease 2020
 sars;severe acute respiratory syndrome
+covid 19;coronavirus disease of 2019
+SARS-CoV2;severe acute respiratory syndrome coronavirus 2 

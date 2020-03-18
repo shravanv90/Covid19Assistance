@@ -1,2 +1,5 @@
-covid-19;wuhan virus;wuhan corona virus;sars-cov-2;sars cov 2;sars coronavirus 2;sars-cov;sars cov;novel corona virus;2019-nCov;novel coronavirus;wuhan pneumonia;wuhan virus;wuhan flu
-coronavirus;corona virus;coronavirinae;respiratory syndrome coronavirus
+covid-19;covid;covid virus;covid disease
+wuhan virus;wuhan corona virus;wuhan pneumonia;wuhan virus;wuhan flu
+sars-cov-2;sars cov 2;sars coronavirus 2;sars-cov;sars cov
+novel corona virus;2019-nCov;novel coronavirus
+coronavirus;corona virus;coronavirinae;coronavirus disease;respiratory syndrome coronavirus
