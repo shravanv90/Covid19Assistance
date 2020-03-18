@@ -15,6 +15,8 @@ Default V10 profile and Covid19 are not necessary and are used only to show how 
 
 The Covid19 Home Page WebApp HTML Template is added to the Covid19 skin in the tab `Search Form` section `Custom HTML`. Please note that the CSS style is implement directly within the template between `style` tags
 
+Sponsored Links keywords should be edited directly from the Sponsored Links configuration page but using the detailed configuration when clicking on the pen on the right of a sponsored link line. Keywords must be splitted by line to be considered as different keywords.
+
 
 # How to use it ?
 
