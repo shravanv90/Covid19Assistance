@@ -20,5 +20,6 @@ The Covid19 Home Page WebApp HTML Template is added to the Covid19 skin in the t
 
 You can download the files from github directly. Keep in mind that the Default V10 profile and the Covid19 skin are here as example. In your case, you must use the customer profile and skin already in place.
 
+To make sponsored links work, you need to build the sponsored links index when you're in the sponsored links configuration page.
 
 
