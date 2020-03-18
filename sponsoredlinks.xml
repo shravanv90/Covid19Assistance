@@ -12,14 +12,49 @@
 	<Link>
 		<Title>COVID-19 Lastest News</Title>
 		<Url>#</Url>
-		<Text>COVID-19 COVID Coronavirus Corona virus</Text>
+		<Text>COVID-19
+COVID
+Coronavirus
+Corona virus</Text>
 		<ExactMatch>false</ExactMatch>
 		<StartTime></StartTime>
+		<Summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</Summary>
+		<Tooltip></Tooltip>
+		<Id></Id>
+		<Icon></Icon>
+		<Thumbnail></Thumbnail>
+		<EndTime></EndTime>
+		<Profiles></Profiles>
+		<Apps></Apps>
+		<ForceLanguage></ForceLanguage>
+		<AccessList1></AccessList1>
+		<AccessList2></AccessList2>
+		<DeniedList1></DeniedList1>
+		<DeniedList2></DeniedList2>
 	</Link>
 	<Link>
 		<Title>COVID-19 HR Policy</Title>
 		<Url>#</Url>
-		<Text>WFH Home working Working from Home PTO parental leave</Text>
+		<Text>WFH
+wfh
+home working
+working from home
+PTO
+parental leave</Text>
 		<ExactMatch>false</ExactMatch>
+		<Summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</Summary>
+		<Tooltip></Tooltip>
+		<Id></Id>
+		<Icon></Icon>
+		<Thumbnail></Thumbnail>
+		<StartTime></StartTime>
+		<EndTime></EndTime>
+		<Profiles></Profiles>
+		<Apps></Apps>
+		<ForceLanguage></ForceLanguage>
+		<AccessList1></AccessList1>
+		<AccessList2></AccessList2>
+		<DeniedList1></DeniedList1>
+		<DeniedList2></DeniedList2>
 	</Link>
 </Sinequa>

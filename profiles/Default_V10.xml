@@ -373,6 +373,41 @@
 		<SortByOrder>true</SortByOrder>
 		<FilterDuplicateUrls>false</FilterDuplicateUrls>
 		<GlobalRelevance></GlobalRelevance>
+		<Advanced>
+			<lexas></lexas>
+			<mw></mw>
+			<wsw></wsw>
+			<wcw></wcw>
+			<wpw></wpw>
+			<wac></wac>
+			<autocompound></autocompound>
+			<n></n>
+			<t></t>
+			<c></c>
+			<d></d>
+			<idf></idf>
+			<kidf></kidf>
+			<nzlp></nzlp>
+			<swbf></swbf>
+			<fw></fw>
+			<ffs></ffs>
+			<fcs></fcs>
+			<fds></fds>
+			<lcs></lcs>
+			<lds></lds>
+			<lfs></lfs>
+			<escs></escs>
+			<esds></esds>
+			<esfs></esfs>
+			<fbf></fbf>
+			<fbw></fbw>
+			<fbo></fbo>
+			<fbhl></fbhl>
+			<fbm></fbm>
+			<fbn></fbn>
+			<fbamf></fbamf>
+			<more></more>
+		</Advanced>
 	</Links>
 	<SaveMRUQueries>false</SaveMRUQueries>
 	<SaveMRUQueriesPublic>false</SaveMRUQueriesPublic>
