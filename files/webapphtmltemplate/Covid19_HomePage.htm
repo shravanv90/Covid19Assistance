@@ -1,0 +1,76 @@
+﻿<%@Page debug="true"%>
+<%@Language name="C#"%>
+<style>
+    .card {
+    width: 33%;
+    margin: 2em auto;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card-header {
+    padding:1em;   
+    background:#cecece;
+}
+
+.card-header a {
+    font-size:2em;
+}
+
+.card-header a:hover {
+    text-decoration:none;
+    color:#000000;
+}
+
+.card-content {
+    padding:1em;
+    font-size:1.5em;
+    background:#ababab;
+}
+</style>
+<div class="search-header">
+    <div class="search-welcome"><%
+            Web.WebMenu root = new Web.WebMenu("UserRoot");
+            Web.WebMenu menuUser = root.SubMenuAdd("user",Str.And(Sys.Lang("Welcome[fr]Bienvenue"), " ", (Str.IsEmpty(Session.User.FullName) ? Session.User.Name : Session.User.FullName)));
+            Web.WebMenu menuLang = menuUser.SubMenuAdd("ChangeLanguage", Sys.Lang("Select display language[fr]Changer la langue d'affichage"),null,"s/skin_v10/icons/flags/flag-" + Session.SessionUiLangStr + "-16-black.png");
+            foreach (string lang in Sys.LangDictList())
+            {
+                string displayKey = LangUti.GetLangDisplayKey(lang);
+                menuLang.SubMenuAdd(lang, displayKey,"javascript:SetUiLanguage('"+ lang + "')","s/skin_v10/icons/flags/flag-" + lang + "-16-black.png");
+            }
+            menuUser.SubMenuAdd("resetBoxes", Ht.TextDecode(Sys.Lang("Reset user settings[fr]R&eacute;initialiser les pr&eacute;f&eacute;rences utilisateur")),"javascript:ResetBoxState()","s/skin_v10/icons/menu/reset-16.png");
+            Hm.WriteMenu(root);
+        %>
+    </div>
+    <div class="search-menu"><%SearchPage.WriteMenu();%></div>
+</div>
+<div class="search-homepage">
+    
+    <div class="search-header-logo"><a href="search"><img src="<%=Str.Replace(Session.Profile.Skin.LogoUrl,"search.","search-home.")%>" border="0" id="logo-img"></a></div>
+
+    <% if (!Session.NoProfile) { %>
+    <div class="search-header-form <%=((Session.Profile.DisplayScopes && Session.Profile.Scopes.Count > 0)?"search-header-form-with-scope":"")%>">
+        <form name="F" method="GET" action="search" onkeydown="return Sys.SubmitReturn(event);">
+            <%SearchPage.WriteScopeSelection();%>    
+            <input type="text" name="text" value="<%=Ht.Attr(Result.Text)%>" id="search-input" autocomplete="off" placeholder="<%=Sys.Lang("Search...[fr]Rechercher...")%>">
+            <% if (Session.Profile.DisplayAdvanced) { %><div class="search-adv-button"></div><%}%>
+            <div class="search-btn-submit-div" title="<%=Sys.Lang("Search[fr]Recherche")%>" alt="<%= Sys.Lang("Search[fr]Recherche")%>" onclick="Sys.Submit();" align="absbottom"></div>
+            <% if (Session.Profile.DisplayAdvanced) { %>
+                <input type="hidden" name="advanced" id="advanced" value="0">
+                <div class="search-header-advanced-form" id="search-0" name="search-0" style="display:none;">
+                    <div class="search-header-advanced-form-close"><img src="s/skin_v10/icons/croix.png" class="advanced-button-close"border="0"></div>
+                    <div class="search-header-advanced-form-content"><%SearchPage.WriteAdvancedForm();%></div>
+                
+                </div>
+            <%}%>
+        </form>
+    </div>
+    <%}%>
+    <div id="result-messages"><%SearchPage.WriteMessages();%></div>
+    <div class="search-baseline">Cognitive Search &amp; Analytics</div>
+    <div class="card">
+        <div class="card-header"><a href="#">COVID-19 LASTEST NEWS</a></div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </div>
+    </div>
+</div>        

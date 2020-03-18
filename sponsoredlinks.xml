@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sinequa>
+	<DefaultLanguage></DefaultLanguage>
+	<ForceLanguage></ForceLanguage>
+	<RewritingsEnabled>false</RewritingsEnabled>
+	<Rewritings></Rewritings>
+	<StopWordsRuleSetsEnabled>false</StopWordsRuleSetsEnabled>
+	<StopWordsRuleSets></StopWordsRuleSets>
+	<PluginName></PluginName>
+	<Engine>engine</Engine>
+	<Language>_all</Language>
+	<Link>
+		<Title>COVID-19 Lastest News</Title>
+		<Url>#</Url>
+		<Text>COVID-19 COVID Coronavirus Corona virus</Text>
+		<ExactMatch>false</ExactMatch>
+		<StartTime></StartTime>
+	</Link>
+	<Link>
+		<Title>COVID-19 HR Policy</Title>
+		<Url>#</Url>
+		<Text>WFH Home working Working from Home PTO parental leave</Text>
+		<ExactMatch>false</ExactMatch>
+	</Link>
+</Sinequa>
