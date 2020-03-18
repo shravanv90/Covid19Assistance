@@ -19,11 +19,20 @@ The Covid19 Home Page WebApp HTML Template is added to the Covid19 skin in the t
 
 Sponsored Links keywords should be edited directly from the Sponsored Links configuration page but using the detailed configuration when clicking on the pen on the right of a sponsored link line. Keywords must be splitted by line to be considered as different keywords.
 
+### SampleDictionaries ###
+
+- Synoynms for Covid-19.
+- Reformulation expansions for various terms related to this disease.
+- Synonyms for business terms people might be search form.
+- Some acronym reformulation for acronyms people might use in queries around this issue.
+
 
 # How to use it ?
 
 You can download the files from github directly. Keep in mind that the Default V10 profile and the Covid19 skin are here as example. In your case, you must use the customer profile and skin already in place.
 
 To make sponsored links work, you need to build the sponsored links index when you're in the sponsored links configuration page.
+
+For the dictionaries, you may find additional terms you want to add, or the business may have others to add, keep an open mind as you deploy!
 
 
