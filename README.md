@@ -4,7 +4,9 @@ Resources for assisting customers with the Covid19 information awareness initiat
 
 # What does this repository contains ?
 
-This repository contains :
+This repository contains:
+
+### ProfileNotificationSample ###
 
 - a Default_V10 Example profile
 - a Covid19 skin
