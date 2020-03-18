@@ -1,0 +1,8 @@
+WFH;work from home;remote;telecommute;telework;home-sourced;work-at-home;virtual
+HSA;health savings account
+FSA;flexible spending account;flex spending account
+PTO;paid time off;sick time;sick leave
+PPE;personal protective equipment
+HR;human resources
+HIPAA;health information portability and accountability act
+WHSMS;work health and safety management system
