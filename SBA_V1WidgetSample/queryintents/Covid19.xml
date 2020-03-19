@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sinequa>
+	<Description>Detetct intent links to covid 19 and display a widget with relevant info</Description>
+	<QueryIntentPlugin></QueryIntentPlugin>
+	<UserSelectionQuery></UserSelectionQuery>
+	<CurrentTab></CurrentTab>
+	<CurrentResultView></CurrentResultView>
+	<MatchRules>
+		<Order>true</Order>
+		<ExactNumber>false</ExactNumber>
+		<e>
+			<Word></Word>
+			<Entity>Covid19</Entity>
+			<MatchQuery>true</MatchQuery>
+			<MatchBaseForm>false</MatchBaseForm>
+		</e>
+	</MatchRules>
+	<Action>
+		<Tab></Tab>
+		<ResultView></ResultView>
+		<QueryText></QueryText>
+		<WhereClause></WhereClause>
+		<SqlSelect>
+			<e>
+				<Name>links</Name>
+				<Select>SELECT sourcestr1, sourcestr2, sourcestr3, sourcestr4 FROM covid19 WHERE sourcestr1 ='{Replace($.entities[?(@.name=="Covid19")].value,"'","''")}'</Select>
+			</e>
+		</SqlSelect>
+		<NbMaxSqlSelect></NbMaxSqlSelect>
+		<Component>query-intent-covid19</Component>
+	</Action>
+</Sinequa>

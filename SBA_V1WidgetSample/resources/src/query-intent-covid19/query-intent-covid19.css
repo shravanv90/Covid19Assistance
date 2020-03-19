@@ -1,0 +1,15 @@
+table {
+    word-break: normal;
+    color: #092276;
+}
+
+.root{
+    color: white;
+    font-size: large;
+    background-color: #092276;
+    font-weight: bold;
+}
+
+td {
+    width: 30%;
+}

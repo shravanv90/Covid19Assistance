@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sinequa>
+	<Revision>1</Revision>
+	<Description>Covid 19 and its variations </Description>
+	<Requirements></Requirements>
+	<Type>standard</Type>
+	<Column>entity19</Column>
+	<PartName></PartName>
+	<InternalName>covid19</InternalName>
+	<IsSinequaInternal>false</IsSinequaInternal>
+	<Indexation>
+		<LinguisticAgents></LinguisticAgents>
+	</Indexation>
+	<ExactWhiteLists>
+		<ExactWhiteList>
+			<Name>Covid19</Name>
+			<Lang>_builtin</Lang>
+			<CaseSensitive>false</CaseSensitive>
+			<DiacriticsSensitive>false</DiacriticsSensitive>
+			<MultipleMatches>last</MultipleMatches>
+			<OverrideStandardNormalizations>false</OverrideStandardNormalizations>
+			<IgnoreSentenceContainment>false</IgnoreSentenceContainment>
+			<DoNotMatchFirstColumn>false</DoNotMatchFirstColumn>
+		</ExactWhiteList>
+	</ExactWhiteLists>
+	<LemmaWhiteLists></LemmaWhiteLists>
+	<RegexWhiteLists></RegexWhiteLists>
+	<BlackLists></BlackLists>
+	<RegexBlackLists></RegexBlackLists>
+	<Normalizations></Normalizations>
+	<TextMiningAgents></TextMiningAgents>
+	<NLPPatterns></NLPPatterns>
+</Sinequa>

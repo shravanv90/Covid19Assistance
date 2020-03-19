@@ -1,0 +1,21 @@
+<table class="sq-results-grid-view">
+    <thead>
+        <tr>
+            <th class="root">{{root}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngIf="url1">
+            <td  class="url1">
+                <i class="fas fa-globe "></i>
+                <a href="{{url1}}" target="_blank">{{url1}}</a>
+            </td>
+        </tr>
+        <tr *ngIf="url2">
+            <td class="url2">
+                <i class="fas fa-globe "></i>
+                <a href="{{url2}}" target="_blank">{{url2}}</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
