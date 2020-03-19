@@ -1,0 +1,5 @@
+﻿covid19;https://www.sinequa.com/covid-19/;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news
+covid 19;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news
+corona;https://www.sinequa.com/covid-19/;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news
+corona virus;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news
+coronavirus;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news

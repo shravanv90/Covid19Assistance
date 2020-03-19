@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sinequa>
+	<Description>Classic search application</Description>
+	<Query>quickpoc</Query>
+	<Search>search</Search>
+	<Preview>preview</Preview>
+	<Labels>labels</Labels>
+	<UserSettings>usersettings</UserSettings>
+	<SponsoredLinks>_sponsoredlinks</SponsoredLinks>
+	<QueryExport>_queryexport</QueryExport>
+	<Package>/quickpoc/</Package>
+	<AuthenticationStorage></AuthenticationStorage>
+	<OAuthProviders></OAuthProviders>
+	<SamlProviders></SamlProviders>
+	<CssFile></CssFile>
+	<Core>
+		<DocumentTitle></DocumentTitle>
+		<Title></Title>
+		<ShortTitle></ShortTitle>
+		<HelpUrl></HelpUrl>
+		<Resolve>
+			<Navbar>navbar</Navbar>
+			<StatusBar>statusbar</StatusBar>
+		</Resolve>
+	</Core>
+	<AutocompleteEnabled>true</AutocompleteEnabled>
+	<SuggestQueries>suggest_req</SuggestQueries>
+	<AllowedPrincipalIds></AllowedPrincipalIds>
+	<AllowedPrincipalNames></AllowedPrincipalNames>
+	<ExcludedPrincipalIds></ExcludedPrincipalIds>
+	<ExcludedPrincipalNames></ExcludedPrincipalNames>
+	<SaveMRUQueries>true</SaveMRUQueries>
+	<SaveMRUQueriesPublic>true</SaveMRUQueriesPublic>
+	<SaveMRUQueriesEmpty>true</SaveMRUQueriesEmpty>
+	<QueryRssEnabled>false</QueryRssEnabled>
+	<SuggestOptions>
+		<UncollapsedItemsPerCategory></UncollapsedItemsPerCategory>
+		<UseFieldedSearch>true</UseFieldedSearch>
+		<InputLengthTrigger></InputLengthTrigger>
+		<GroupSuggestionsByCategory>true</GroupSuggestionsByCategory>
+	</SuggestOptions>
+	<KeepFiltersForNewSearch>false</KeepFiltersForNewSearch>
+	<UsePopupForLogin>true</UsePopupForLogin>
+</Sinequa>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sinequa>
+	<Description></Description>
+	<Index></Index>
+	<TreeRoot></TreeRoot>
+	<ConversionPlan></ConversionPlan>
+	<AuditEnabled>false</AuditEnabled>
+	<Indexers></Indexers>
+	<StoreDocumentCache></StoreDocumentCache>
+	<Indexation>
+		<StoreInCollectionCache>false</StoreInCollectionCache>
+		<DocumentClass></DocumentClass>
+		<Plugin></Plugin>
+		<ThumbnailHeight></ThumbnailHeight>
+		<ThumbnailWidth></ThumbnailWidth>
+		<Mappings></Mappings>
+		<XmlFilterBase64Text>false</XmlFilterBase64Text>
+		<XmlFilterBase64TextThreshold></XmlFilterBase64TextThreshold>
+		<XmlExtensions></XmlExtensions>
+	</Indexation>
+	<OnlineMl>
+		<Redirections></Redirections>
+	</OnlineMl>
+	<ShardIndexes></ShardIndexes>
+	<ShardingStrategy></ShardingStrategy>
+	<ShardSelections></ShardSelections>
+	<NLPAnalysisParms></NLPAnalysisParms>
+</Sinequa>
