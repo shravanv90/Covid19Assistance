@@ -19,6 +19,25 @@ The Covid19 Home Page WebApp HTML Template is added to the Covid19 skin in the t
 
 Sponsored Links keywords should be edited directly from the Sponsored Links configuration page but using the detailed configuration when clicking on the pen on the right of a sponsored link line. Keywords must be splitted by line to be considered as different keywords.
 
+
+### SBA V1 Sample widget  ###
+
+- An example of App named quickpoc
+- An example of Webservice to serve your  app query  names quickpoc
+- A Covid19 query intent based on a whitelist and an angular component
+- An exmaple of source data using the CSV connector to pull data from index
+- Entities Configuration necessary for intent detection
+- query-intent-covid19 component 
+- Custom.ts to reference the new component in the App
+
+The app quickpoc and the webservice are here to show to plug the query intent. You may want only to add your query intent in your legacy SBA. 
+The sources CSV here is here to serve as example of data to demo the result. It's not mandatory to this step, but please update your query intent SQL action accordingly 
+
+
+After setting everyting, it should like : 
+![widget](https://github.sinequa.com/djoko/Covid19Assistance/blob/master/screenshots/Covid19_Widget.PNG)
+
+
 ### SampleDictionaries ###
 
 - Synoynms for Covid-19.
