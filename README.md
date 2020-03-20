@@ -9,13 +9,13 @@ This repository contains:
 
 ### Profile Notification Sample &  ###
 
-  *Notification Sample*
+*Notification Sample*
 - a Default_V10 Example profile
 - a Covid19 skin
 - a HomePage WebAppHTML Template : this is used to display a News card on the Sinequa Home Page
 - a Sponsored Links example
 
- *Synonym & Reformulation*
+*Synonym & Reformulation*
 - Synoynms for Covid-19
 - Reformulation expansions for various terms related to this disease
 - Synonyms for business terms people might be search for
@@ -32,7 +32,7 @@ Sponsored Links keywords should be edited directly from the Sponsored Links conf
 
 ### SBA Sample widget  ###
 
-   *Widget Material* 
+*Widget Material* 
 - quickpoc the App name in the **apps** folder
 - quicpoc webservice, the query of the app quickpoc in **webservice** folder
 - A Covid19 query intent based on a whitelist and an angular component, in **queryintent** folder 
@@ -42,7 +42,7 @@ Sponsored Links keywords should be edited directly from the Sponsored Links conf
 - query-intent-covid19 the angular component in **resources/quickpoc/src** folder
 - custom.ts to reference the new component in the App
  
-  *Synonym & Reformulation*
+*Synonym & Reformulation*
 
 - Synoynms for Covid-19
 - Reformulation expansions for various terms related to this disease
