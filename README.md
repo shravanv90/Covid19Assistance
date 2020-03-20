@@ -1,6 +1,6 @@
 # Covid19Assistance
 
-Package resources for **Profile** and/or **SBA** for assisting customers with the Covid19 information.<br/>
+Package resources for **Profile** and/or **SBA** for assisting our customers with the Covid19 information.<br/>
 To use these resources, you must have Sinequa ES installed with a valid License. <br/>
 
 # What does this repository contains ?
