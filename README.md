@@ -1,7 +1,7 @@
 # Covid19Assistance
 
-Package resources for **Profile** and/or **SBA** for assisting customers with the Covid19 information.
-To use these resources, you should have Sinequa ES installed with a valid License. 
+Package resources for **Profile** and/or **SBA** for assisting customers with the Covid19 information.<br/>
+To use these resources, you must have Sinequa ES installed with a valid License. <br/>
 
 # What does this repository contains ?
 
@@ -50,8 +50,8 @@ Sponsored Links keywords should be edited directly from the Sponsored Links conf
 - Acronyms related to business term people might use in queries around this issue
 - Engine configuration showcasing where to reference above files
 
-The app quickpoc and the webservice are here to show to plug the query intent. You may want only to add your query intent in your legacy SBA. 
-The sources CSV here is here to serve as example of data to demo the result. You need to run the indexation for the widget to work properly thought it's not mandatory; You can use you legacy index but please update your query intent SQL action accordingly 
+The app quickpoc and the webservice are here to show how to plug the query intent. You must use your existing App, webservice and update with new require info. 
+The sources CSV is here to serve as example of data to demo the result. You need to run the indexation for the widget to work properly thought it's not mandatory; You can use you legacy index but please update your query intent SQL action accordingly 
 
 
 After setting everyting, it should like : 
