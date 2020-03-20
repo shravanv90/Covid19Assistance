@@ -56,7 +56,7 @@ The sources CSV here is here to serve as example of data to demo the result. You
 
 After setting everyting, it should like : 
 
-![widget](https://github.sinequa.com/djoko/Covid19Assistance/blob/master/screenshots/Covid19_Widget.PNG)
+![widget](https://github.com/aureldjoko/Covid19Assistance/blob/master/screenshots/Covid19_Widget.PNG)
 
 
 
