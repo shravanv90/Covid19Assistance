@@ -61,7 +61,7 @@ After setting everyting, it should like :
 
 
 # How to use it ?
-First of all, the pathes here are relative to **<sinequa_data>/configuration**
+First of all, the paths here are relative to **<sinequa_data>/configuration**
 
 Secondly, either your UIs are based on Profile then you will be interested only in Profile folder of this repository or you UIs are based on SBA, then the SBA folder make sense for you. 
 If you have Both UIs based on profile and SBA, you may have on look on both folder.  
