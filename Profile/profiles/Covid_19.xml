@@ -206,6 +206,9 @@
 		<ChineseScript></ChineseScript>
 		<EnableMultiSearch>false</EnableMultiSearch>
 		<AllowedGroupByColumns></AllowedGroupByColumns>
+		<QueryIntent></QueryIntent>
+		<DefaultNearValue></DefaultNearValue>
+		<EnableMultiSearchCompletion>false</EnableMultiSearchCompletion>
 	</Search>
 	<DocResult>
 		<DefaultHighlights>false</DefaultHighlights>
@@ -484,4 +487,10 @@
 	<AllowedPrincipalNames></AllowedPrincipalNames>
 	<ExcludedPrincipalIds></ExcludedPrincipalIds>
 	<ExcludedPrincipalNames></ExcludedPrincipalNames>
+	<ColumnSecurity>
+		<Enabled>false</Enabled>
+		<Columns></Columns>
+	</ColumnSecurity>
+	<RFM></RFM>
+	<RespectFieldPermissions>false</RespectFieldPermissions>
 </Sinequa>

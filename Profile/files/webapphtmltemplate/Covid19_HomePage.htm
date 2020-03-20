@@ -47,7 +47,6 @@
     
     <div class="search-header-logo"><a href="search"><img src="<%=Str.Replace(Session.Profile.Skin.LogoUrl,"search.","search-home.")%>" border="0" id="logo-img"></a></div>
 
-    <% if (!Session.NoProfile) { %>
     <div class="search-header-form <%=((Session.Profile.DisplayScopes && Session.Profile.Scopes.Count > 0)?"search-header-form-with-scope":"")%>">
         <form name="F" method="GET" action="search" onkeydown="return Sys.SubmitReturn(event);">
             <%SearchPage.WriteScopeSelection();%>    
@@ -64,7 +63,6 @@
             <%}%>
         </form>
     </div>
-    <%}%>
     <div id="result-messages"><%SearchPage.WriteMessages();%></div>
     <div class="search-baseline">Cognitive Search &amp; Analytics</div>
     <div class="card">
