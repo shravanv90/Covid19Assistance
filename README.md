@@ -2,6 +2,10 @@
 
 Package resources for **Profile** and/or **SBA** for assisting our customers with the Covid19 information.<br/>
 To use these resources, you must have Sinequa ES installed with a valid License. <br/>
+Required Sinequa version, at least: 
+- For profile: 10.0.0.0
+- For SBA: 11.0.0.0
+
 
 # What does this repository contains ?
 

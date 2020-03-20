@@ -53,21 +53,21 @@
 	<Synonyms>
 		<Synonym>
 			<Name>BusinessSynonyms</Name>
-			<Lang></Lang>
+			<Lang>_builtin</Lang>
 		</Synonym>
 		<Synonym>
 			<Name>CovidSynonyms</Name>
-			<Lang></Lang>
+			<Lang>_builtin</Lang>
 		</Synonym>
 	</Synonyms>
 	<Reformulations>
 		<Reformulation>
 			<Name>BusinessReformulations</Name>
-			<Lang></Lang>
+			<Lang>_builtin</Lang>
 		</Reformulation>
 		<Reformulation>
 			<Name>CovidReformulations</Name>
-			<Lang></Lang>
+			<Lang>_builtin</Lang>
 		</Reformulation>
 	</Reformulations>
 	<StopWords></StopWords>
